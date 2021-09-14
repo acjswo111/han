@@ -1,0 +1,240 @@
+body{min-width: 1580px;}
+#header{text-align: center; height: 81px; position: relative;}
+#header h1{position: absolute; left: 50px; top: 0; height: 53px; padding: 14px 0 0} /*자리잡고*/
+#header h1 .logo{display: block; width: 114px; height: 53px; color: transparent; background:url(/image/sp_com2.png) no-repeat -300px 0;}
+
+#header .menu li{display: inline-block;}
+#header .menu li a{display: block; height: 81px; padding: 0 35px;color: #333; line-height: 81px;}
+#header .menu li a:hover{color: #2d5b79; font-weight: bold; text-decoration:underline;}
+
+#header .service ul{position: absolute; right: 50px; top: 0;}/*자리잡고*/
+#header .service li{position: relative; float: left;}
+#header .service li::after{content: ""; position: absolute; left: 0; top: 50%;
+width: 1px; height: 7px; background: #ccc; transform: translateY(-50%);}
+#header .service li:first-child::after{display: none;}
+#header .service li a{display: block; height: 81px; padding:0 10px; line-height: 81px;}
+#header .service li:last-child a{padding-right: 0;}
+/* header End */
+
+#visual_box{padding: 0 50px; position: relative;/*부모기준*/}
+#visual_box .main_con > div{height: 640px;}
+#visual_box .prev,.next{display: block; position: absolute; top: 40%; transform: translateY(-50%);
+width: 27px; height: 47px; background: url(/image/sp_com2.png) no-repeat; color: transparent;}
+/* 이전 다음 크기 27px 47px */
+#visual_box .prev{left: 82px; background-position: -128px -60px;}
+#visual_box .next{right: 82px; background-position: -160px -60px;}
+#visual_box .control{position: absolute; left: 0; width: 100%; bottom: 55px; text-align: center;}/* absolute하면 width초기화됨 그래서 width를 추가해줘야함*/
+#visual_box .control >div{display: inline-block; position: relative; padding: 0 45px 0 0;}
+#visual_box .control > div > div{position: absolute; right: 0;}
+#visual_box .control > div > div a{overflow: hidden; display: inline-block; width: 8px; height: 9px;
+background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
+#visual_box .control > div > div a.on{opacity: 1;} /*opacity = 투명도 a에 on이 있으면 1 없으면 0.5*/
+#visual_box .control li a{display: block; width: 50px; height: 3px; background-color: rgba(255, 255, 255, 0.5); border: none;}
+/* width 50px  height 3px */
+#visual_box .control > div > div a.play{background-position: -108px -72px;}
+#visual_box .control > div > div a.stop{background-position: -108px -60px;}
+#visual_box ul{display: inline-block; position: relative;top: 8px;}
+#visual_box li{display: inline-block;}
+#visual_box .control li{padding: 0 3px;}
+#visual_box .control .link a{background-color: #fff;}
+#visual_box .control a{color: transparent;}
+
+#visual_box .main_con .slide{background: url(/image/bg_main0.jpg) no-repeat center;}
+#visual_box .main_con .slide p,span{color: #fff;}
+#visual_box .main_con .slide .tit{text-align: center; position: relative; top: 50%; transform: translateY(-50%);}
+
+/* visual_box End */
+#menu_list a {color: #001829; display: block;}
+#menu_list a:hover{color: #2d5b79; font-weight: bold;}
+#menu_list a::before{content: ""; background:url(/image/sp_com2.png) no-repeat; display: block; width: 64px;height: 52px; margin-bottom: 26px;}
+#menu_list ul{padding: 46px 0 41px; text-align: center; font-size: 0;}
+#menu_list li{display: inline-block; padding: 0 50px;}
+
+/* 그림크기 = width 64px height 52px*/
+/* width 3px 84px 155px 221px 301px 371px  height 117px 237px  184px은 hover했을때*/
+#menu_list li:nth-child(1) a::before{background-position: -3px -117px;}
+#menu_list li:nth-child(2) a::before{background-position: -74px -117px;}
+#menu_list li:nth-child(3) a::before{background-position: -151px -117px;}
+#menu_list li:nth-child(4) a::before{background-position: -221px -117px;}
+#menu_list li:nth-child(5) a::before{background-position: -291px -117px;}
+#menu_list li:nth-child(6) a::before{background-position: -363px -117px;}
+
+
+#menu_list li:nth-child(1) a:hover::before{background-position: -3px -184px;}
+#menu_list li:nth-child(2) a:hover::before{background-position: -74px -184px;}
+#menu_list li:nth-child(3) a:hover::before{background-position: -151px -184px;}
+#menu_list li:nth-child(4) a:hover::before{background-position: -221px -184px;}
+#menu_list li:nth-child(5) a:hover::before{background-position: -291px -184px;}
+#menu_list li:nth-child(6) a:hover::before{background-position: -363px -184px;}
+
+/* 제품 배너 End */
+#magazine .prev,.next{display: block; position: absolute; top: 40%; transform: translateY(-50%);
+width: 27px; height: 47px; background: url(/image/sp_com2.png) no-repeat; color: transparent;}
+#magazine .prev{left: 50%; margin:100px 0 0 -640px; z-index: 10; background-position: -337px -667px;}
+#magazine .next{right: 50%; margin: 100px -640px 0 0; z-index: 10; background-position: -406px -667px;} 
+#magazine .control{position: absolute; left: 0; width: 100%; bottom: 55px; text-align: center;}/* absolute하면 width초기화됨 그래서 width를 추가해줘야함*/
+#magazine .control > div{display: inline-block; position: relative; padding: 0 48px 0 0;}
+#magazine .control > div > div{position: absolute; right: 0;}
+#magazine .control > div > div a{overflow: hidden; display: inline-block; width: 8px; height: 9px;
+background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
+#magazine .control > div > div a.on{opacity: 1;} /*opacity = 투명도 a에 on이 있으면 1 없으면 0.5*/
+#magazine .control li a{display: block; width: 50px; height: 3px; background-color: rgba(255, 255, 255, 0.5); border: none;}
+#magazine .control > div > div a.play{background-position: -108px -72px;}
+#magazine .control > div > div a.stop{background-position: -108px -60px;}
+#magazine .control ul{display: inline-block; position: relative;top: 8px;}
+#magazine .control li{display: inline-block;}
+#magazine .control li{padding: 0 3px;}
+#magazine .control .link a{background-color: #fff;}
+#magazine .control a{color: transparent;}
+#magazine .control > div{top: 25px;}
+/* --------------control 부분 */
+
+#magazine{overflow:hidden; background-color: #dfd9d1; position: relative; height: 670px;}
+#magazine h2{font-size: 30px; font-weight: bold; text-align: center; color:#000000; padding: 50px 0 16px 0;}
+#magazine p{text-align: center; line-height: 1.5; font-size: 14px;}
+/* 1180px 430px  유튜브 배너부분*/
+
+#magazine .slide_banner > div{position: absolute; left: 50%; top: 150px; transform: translateX(-50%);  width: 1180px; height: 430px; background-color: #fff;}
+/* 800px 430px */
+/* 312px 32px */
+#magazine .slide_banner .left{float: left; width: 800px; height: 430px; overflow: hidden;}
+#magazine .slide_banner .left img{width: 100%;}
+#magazine .slide_banner .right{float: right; width: 380px; height: 430px; padding: 20px 20px 0; box-sizing: border-box;}
+#magazine .slide_banner .right a:hover{text-decoration: underline;}
+#magazine .slide_banner .right li{padding-bottom: 20px;}
+#magazine .slide_banner .right li a{display: table; width: 100%;}
+#magazine .slide_banner .right li a div{display: table-cell; position:relative; padding: 0 0 0 100px; font-size: 12px; color: #333; height: 82px; vertical-align:middle;}
+#magazine .slide_banner .right li a img{position: absolute; left: 0; top: 0;}
+#magazine .slide_banner .right li a strong{font-size: 13px; color: #000; display: block;}
+
+/* 맞추기용 */
+/* 왼쪽 슬라이드 */
+#magazine .slide_banner > div:nth-child(1){margin-left: -1280px;}
+/* 오른쪽 슬라이드 */
+#magazine .slide_banner > div:nth-child(2){margin-left: 1280px;}
+
+/* magezine End */
+#blog .prev,.next{display: block; position: absolute; top: 40%; transform: translateY(-50%);
+width: 27px; height: 47px; background: url(/image/sp_com2.png) no-repeat; color: transparent;}
+#blog .prev{left: 50%; margin:100px 0 0 -640px; z-index: 10; background-position: -337px -667px;}
+#blog .next{right: 50%; margin: 100px -640px 0 0; z-index: 10; background-position: -406px -667px;} 
+#blog .control{position: absolute; left: 0; width: 100%; bottom: 55px; text-align: center;}/* absolute하면 width초기화됨 그래서 width를 추가해줘야함*/
+#blog .control > div{display: inline-block; position: relative; padding: 0 48px 0 0;}
+#blog .control > div > div{position: absolute; right: 0;}
+#blog .control > div > div a{overflow: hidden; display: inline-block; width: 8px; height: 9px;
+background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
+#blog .control > div > div a.on{opacity: 1;} /*opacity = 투명도 a에 on이 있으면 1 없으면 0.5*/
+#blog .control li a{display: block; width: 50px; height: 3px; background-color: #ccc; border: none;}
+#blog .control ul{display: inline-block; position: relative;top: 30px;}
+#blog .control li{display: inline-block;}
+#blog .control .link a{background-color: #2d5b79;}
+#blog .control a{color: transparent;}
+#blog .control > div{top: 0;}
+/* 컨트롤 부분 가져옴 */
+#blog{position: relative; height: 770px; background-color: #f2f0ed;}
+#blog h2{font-size: 30px; font-weight: bold; text-align: center; color:#000000; padding-top: 50px;}
+#blog .blog_slide span{color: #000; font-weight: bold;}
+#blog .blog_slide > div{width: 100%; position: absolute; left: 50%; top: 100px; transform: translateX(-50%);  width: 1180px; height: 550px; text-align: left;}
+#blog .blog_slide ul{position: relative; margin-top: 40px; display: block;}
+#blog .blog_slide ul li{position: relative;float: left; width: 280px; margin-right: 15px; height: 550px; letter-spacing: -2px;}
+#blog .blog_slide ul li{background-color: #fff;}
+#blog .blog_slide ul li a{ display: inline-block; width: 100%; height: 100%;}
+#blog .blog_slide ul li a:hover{text-decoration:underline;}
+#blog .blog_slide ul li a img{width: 100%; height: 280px;}
+#blog .blog_slide ul li a .txt{padding:26px 28px 24px; box-sizing: border-box;}
+#blog .blog_slide ul li a .tit{margin-bottom: 10px; font-size: 18px; font-weight: bold; line-height: 1.5em;
+overflow: hidden; text-overflow: ellipsis;
+display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; /*줄수를 2칸으로하고 넘어갈시 ellipsis로인해 생략부호가 붙음....*/
+}
+#blog .blog_slide ul li a .fonts{position: relative; padding-left: 67px; margin-bottom: 5px; width: 100%; display: block; font-size: 16px;}
+#blog .blog_slide ul li a .fonts span{position: absolute; left: 0; top: 0; font-size: 14px; font-weight: bold;}
+
+/* blog end */
+#youtube{height: 460px; position: relative;}
+#youtube h2{font-size: 30px; text-align: center; padding-top: 50px; font-weight: 600; letter-spacing: -1px;}
+#youtube .prev,.next{display: block; position: absolute; top: 40%; transform: translateY(-50%);
+width: 27px; height: 47px; background: url(/image/sp_com2.png) no-repeat; color: transparent;}
+#youtube .prev{left: 50%; margin:100px 0 0 -640px; z-index: 10; background-position: -337px -667px;}
+#youtube .next{right: 50%; margin: 100px -640px 0 0; z-index: 10; background-position: -406px -667px;} 
+#youtube .control{position: absolute; left: 0; width: 100%; bottom: 55px; text-align: center;}/* absolute하면 width초기화됨 그래서 width를 추가해줘야함*/
+#youtube .control > div{display: inline-block; position: relative; padding: 0 48px 0 0;}
+#youtube .control > div > div{position: absolute; right: 0;}
+#youtube .control > div > div a{overflow: hidden; display: inline-block; width: 8px; height: 9px;
+background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
+#youtube .control > div > div a.on{opacity: 1;} /*opacity = 투명도 a에 on이 있으면 1 없으면 0.5*/
+#youtube .control li a{display: block; width: 50px; height: 3px; background-color: #ccc; border: none;}
+#youtube .control ul{display: inline-block; position: relative;top: 30px;}
+#youtube .control li{display: inline-block;}
+#youtube .control .link a{background-color: #2d5b79;}
+#youtube .control a{color: transparent;}
+#youtube .control > div{top: 5px;}
+
+#youtube .youtube_slide span{color: #000; font-weight: bold;}
+#youtube .youtube_slide > div{width: 100%; position: absolute; left: 50%; top: 100px; transform: translateX(-50%);  width: 1180px; height: 275px; text-align: left;}
+#youtube .youtube_slide ul{position: relative; margin-top: 40px; display: block;}
+#youtube .youtube_slide ul li{position: relative;float: left; width: 280px; margin-right: 15px; height: 275px; letter-spacing: -2px;}
+#youtube .youtube_slide ul li{background-color: #fff;}
+#youtube .youtube_slide ul li a{ display: inline-block; width: 100%; height: 100%;}
+#youtube .youtube_slide ul li a:hover{text-decoration:underline;}
+#youtube .youtube_slide ul li a img{width: 100%; height: 160px;}
+#youtube .youtube_slide ul li a .txt{padding:16px 28px 24px; box-sizing: border-box;}
+#youtube .youtube_slide ul li a .tit{margin-bottom: 10px; font-size: 18px; font-weight: bold; line-height: 1.5em; text-align: center;
+overflow: hidden; text-overflow: ellipsis;
+display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; /*줄수를 2칸으로하고 넘어갈시 ellipsis로인해 생략부호가 붙음....*/
+}
+
+/* youtube end */
+
+#news{background: url(/image/bg_main_business.jpg) no-repeat; width: 100%; height: 390px; width: 100%; position: relative;}
+#news > div{position: absolute; left: 50%; top: 55px; transform: translateX(-50%); width: 100%; height: 280px; width: 1180px;}
+#news > div > a{float: left; display: inline-block; margin-right: 20px; width: 280px; height: 280px; background:url(/image/bg_key_link03.jpg)}
+#news .tit{font-size: 18px; padding-top: 150px; font-weight: bold; text-align: center; color: #fff;}
+
+#news .notice{float: left; width: 600px; height: 280px;}
+#news h2{color: #2d5b79; font-size: 23px; font-weight: bold; text-align: center; height: 70px; line-height: 70px;}
+#news ul li{border-top: 1px solid #fff;}
+#news ul li a{display: block; padding: 12px 30px; text-align: left;}
+#news ul li .text{font-size: 16px; overflow: hidden; text-overflow: ellipsis;
+display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; letter-spacing: -1px;
+}
+
+#news ul li .date{font-size: 12px; margin-top: 20px; color: #ab9898;}
+#news .text:hover{text-decoration: underline;}
+#news .left_notice{position: relative; margin-right: 20px; float: left; width: 280px; height: 280px; background-color: #f2f0ed;}
+#news .left_notice .btn{position: absolute; width: 30px; height: 30px; top: 20px; right: 23px; border-radius: 2em; color: transparent;
+background:url(/image/sp_com2.png) no-repeat white; background-position: -196px -60px;}
+#news .right_notice{position: relative; margin-right: 10px; float: left; width: 280px; height: 280px; background-color: #f2f0ed;}
+#news .right_notice .btn{position: absolute; width: 30px; height: 30px; top: 20px; right: 23px; border-radius: 2em; color: transparent;
+background:url(/image/sp_com2.png) no-repeat white; background-position: -196px -60px;}
+
+#news .search_box{width: 280px; height: 280px; background-color: #fff; float: right;}
+#news .search_box option{font-weight: bold;}
+#news .search_box select{display: block; height: 45px; width: 240px; text-align: center; background-color: #f2f0ed; border: none;
+padding: 0 35px 0 15px; font-size: 16px; font-weight: inherit; letter-spacing: -2px; margin-left: 17px;}
+
+#news .search_box input{display: block; margin-top: 10px; width: 240px; height: 45px; background-color: #f2f0ed; border: none; font-size: 16px; margin-left: 17px; font-weight: inherit; letter-spacing: -2px;
+padding: 0 35px 0 15px;}
+
+#news .search_box .search{display: block; margin-left: 17px; width: 240px; height: 45px; background-color: #2d5b79; margin-top: 30px; text-align: center; line-height: 45px;}
+#news .search_box .search a{display: block; color: #fff; font-weight: inherit;}
+
+
+
+#footer_top{background-color: #383f43; height: 70px; width: 100%; position: relative; display: inline-block;}
+#footer_top .family_left ul{padding-left: 360px;}
+#footer_top .family_left ul li{float: left; line-height: 70px; padding-left: 20px; position: relative;}
+#footer_top .family_left ul li::after{content: ""; position: absolute; left: 10px; top: 50%;
+width: 2px; height: 10px; background: #70767a; transform: translateY(-50%);}
+#footer_top .family_left ul li:first-child::after{display: none;}
+#footer_top .family_left ul li a{color: #fff;}
+#footer_top .family_left ul li a:hover{text-decoration: underline;}
+#footer_top .family_right{display: inline-block; right: 50px; padding-top: 12px; }
+#footer_top .family_right .customer{margin-left: 40px; font-weight: bold; background-color: #2a3033; width: 326px; height: 45px; text-align: center;}
+#footer_top .family_right .customer .spantit1{font-size: 14px;}
+#footer_top .family_right .customer .spantit2{font-size: 18px;}
+#footer_top .family_right .customer .spantit3{font-size: 12px;}
+#footer_top .family_right .family_site select{width: 200px; height: 45px; position: absolute; top: 12px; right: 250px; text-align: left; padding-left: 13px; font-size: 14px;}
+
+
+.footerbottom{height: 80px; width: 100%; background-color: #4c5459;}
+.footerbottom p{text-align: center; font-size: 50px; color: #fff;}
