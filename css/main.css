@@ -1,7 +1,7 @@
 body{min-width: 1580px;}
 #header{text-align: center; height: 81px; position: relative;}
 #header h1{position: absolute; left: 50px; top: 0; height: 53px; padding: 14px 0 0} /*자리잡고*/
-#header h1 .logo{display: block; width: 114px; height: 53px; color: transparent; background:url(/image/sp_com2.png) no-repeat -300px 0;}
+#header h1 .logo{display: block; width: 114px; height: 53px; color: transparent; background:url(/han/image/sp_com2.png) no-repeat -300px 0;}
 
 #header .menu li{display: inline-block;}
 #header .menu li a{display: block; height: 81px; padding: 0 35px;color: #333; line-height: 81px;}
@@ -19,7 +19,7 @@ width: 1px; height: 7px; background: #ccc; transform: translateY(-50%);}
 #visual_box{padding: 0 50px; position: relative;/*부모기준*/}
 #visual_box .main_con > div{height: 640px;}
 #visual_box .prev,.next{display: block; position: absolute; top: 40%; transform: translateY(-50%);
-width: 27px; height: 47px; background: url(/image/sp_com2.png) no-repeat; color: transparent;}
+width: 27px; height: 47px; background: url(/han/image/sp_com2.png) no-repeat; color: transparent;}
 /* 이전 다음 크기 27px 47px */
 #visual_box .prev{left: 82px; background-position: -128px -60px;}
 #visual_box .next{right: 82px; background-position: -160px -60px;}
@@ -27,7 +27,7 @@ width: 27px; height: 47px; background: url(/image/sp_com2.png) no-repeat; color:
 #visual_box .control >div{display: inline-block; position: relative; padding: 0 45px 0 0;}
 #visual_box .control > div > div{position: absolute; right: 0;}
 #visual_box .control > div > div a{overflow: hidden; display: inline-block; width: 8px; height: 9px;
-background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
+background:url(/han/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
 #visual_box .control > div > div a.on{opacity: 1;} /*opacity = 투명도 a에 on이 있으면 1 없으면 0.5*/
 #visual_box .control li a{display: block; width: 50px; height: 3px; background-color: rgba(255, 255, 255, 0.5); border: none;}
 /* width 50px  height 3px */
@@ -39,14 +39,14 @@ background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
 #visual_box .control .link a{background-color: #fff;}
 #visual_box .control a{color: transparent;}
 
-#visual_box .main_con .slide{background: url(/image/bg_main0.jpg) no-repeat center;}
+#visual_box .main_con .slide{background: url(/han/image/bg_main0.jpg) no-repeat center;}
 #visual_box .main_con .slide p,span{color: #fff;}
 #visual_box .main_con .slide .tit{text-align: center; position: relative; top: 50%; transform: translateY(-50%);}
 
 /* visual_box End */
 #menu_list a {color: #001829; display: block;}
 #menu_list a:hover{color: #2d5b79; font-weight: bold;}
-#menu_list a::before{content: ""; background:url(/image/sp_com2.png) no-repeat; display: block; width: 64px;height: 52px; margin-bottom: 26px;}
+#menu_list a::before{content: ""; background:url(/han/image/sp_com2.png) no-repeat; display: block; width: 64px;height: 52px; margin-bottom: 26px;}
 #menu_list ul{padding: 46px 0 41px; text-align: center; font-size: 0;}
 #menu_list li{display: inline-block; padding: 0 50px;}
 
@@ -69,14 +69,14 @@ background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
 
 /* 제품 배너 End */
 #magazine .prev,.next{display: block; position: absolute; top: 40%; transform: translateY(-50%);
-width: 27px; height: 47px; background: url(/image/sp_com2.png) no-repeat; color: transparent;}
+width: 27px; height: 47px; background: url(/han/image/sp_com2.png) no-repeat; color: transparent;}
 #magazine .prev{left: 50%; margin:100px 0 0 -640px; z-index: 10; background-position: -337px -667px;}
 #magazine .next{right: 50%; margin: 100px -640px 0 0; z-index: 10; background-position: -406px -667px;} 
 #magazine .control{position: absolute; left: 0; width: 100%; bottom: 55px; text-align: center;}/* absolute하면 width초기화됨 그래서 width를 추가해줘야함*/
 #magazine .control > div{display: inline-block; position: relative; padding: 0 48px 0 0;}
 #magazine .control > div > div{position: absolute; right: 0;}
 #magazine .control > div > div a{overflow: hidden; display: inline-block; width: 8px; height: 9px;
-background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
+background:url(/han/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
 #magazine .control > div > div a.on{opacity: 1;} /*opacity = 투명도 a에 on이 있으면 1 없으면 0.5*/
 #magazine .control li a{display: block; width: 50px; height: 3px; background-color: rgba(255, 255, 255, 0.5); border: none;}
 #magazine .control > div > div a.play{background-position: -108px -72px;}
@@ -115,14 +115,14 @@ background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
 
 /* magezine End */
 #blog .prev,.next{display: block; position: absolute; top: 40%; transform: translateY(-50%);
-width: 27px; height: 47px; background: url(/image/sp_com2.png) no-repeat; color: transparent;}
+width: 27px; height: 47px; background: url(/han/image/sp_com2.png) no-repeat; color: transparent;}
 #blog .prev{left: 50%; margin:100px 0 0 -640px; z-index: 10; background-position: -337px -667px;}
 #blog .next{right: 50%; margin: 100px -640px 0 0; z-index: 10; background-position: -406px -667px;} 
 #blog .control{position: absolute; left: 0; width: 100%; bottom: 55px; text-align: center;}/* absolute하면 width초기화됨 그래서 width를 추가해줘야함*/
 #blog .control > div{display: inline-block; position: relative; padding: 0 48px 0 0;}
 #blog .control > div > div{position: absolute; right: 0;}
 #blog .control > div > div a{overflow: hidden; display: inline-block; width: 8px; height: 9px;
-background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
+background:url(/han/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
 #blog .control > div > div a.on{opacity: 1;} /*opacity = 투명도 a에 on이 있으면 1 없으면 0.5*/
 #blog .control li a{display: block; width: 50px; height: 3px; background-color: #ccc; border: none;}
 #blog .control ul{display: inline-block; position: relative;top: 30px;}
@@ -153,14 +153,14 @@ display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; /*줄
 #youtube{height: 460px; position: relative;}
 #youtube h2{font-size: 30px; text-align: center; padding-top: 50px; font-weight: 600; letter-spacing: -1px;}
 #youtube .prev,.next{display: block; position: absolute; top: 40%; transform: translateY(-50%);
-width: 27px; height: 47px; background: url(/image/sp_com2.png) no-repeat; color: transparent;}
+width: 27px; height: 47px; background: url(/han/image/sp_com2.png) no-repeat; color: transparent;}
 #youtube .prev{left: 50%; margin:100px 0 0 -640px; z-index: 10; background-position: -337px -667px;}
 #youtube .next{right: 50%; margin: 100px -640px 0 0; z-index: 10; background-position: -406px -667px;} 
 #youtube .control{position: absolute; left: 0; width: 100%; bottom: 55px; text-align: center;}/* absolute하면 width초기화됨 그래서 width를 추가해줘야함*/
 #youtube .control > div{display: inline-block; position: relative; padding: 0 48px 0 0;}
 #youtube .control > div > div{position: absolute; right: 0;}
 #youtube .control > div > div a{overflow: hidden; display: inline-block; width: 8px; height: 9px;
-background:url(/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
+background:url(/han/image/sp_com2.png) no-repeat; margin: 0 0 0 7px; opacity: 0.5;}
 #youtube .control > div > div a.on{opacity: 1;} /*opacity = 투명도 a에 on이 있으면 1 없으면 0.5*/
 #youtube .control li a{display: block; width: 50px; height: 3px; background-color: #ccc; border: none;}
 #youtube .control ul{display: inline-block; position: relative;top: 30px;}
@@ -185,9 +185,9 @@ display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; /*줄
 
 /* youtube end */
 
-#news{background: url(/image/bg_main_business.jpg) no-repeat; width: 100%; height: 390px; width: 100%; position: relative;}
+#news{background: url(/han/image/bg_main_business.jpg) no-repeat; width: 100%; height: 390px; width: 100%; position: relative;}
 #news > div{position: absolute; left: 50%; top: 55px; transform: translateX(-50%); width: 100%; height: 280px; width: 1180px;}
-#news > div > a{float: left; display: inline-block; margin-right: 20px; width: 280px; height: 280px; background:url(/image/bg_key_link03.jpg)}
+#news > div > a{float: left; display: inline-block; margin-right: 20px; width: 280px; height: 280px; background:url(/han/image/bg_key_link03.jpg)}
 #news .tit{font-size: 18px; padding-top: 150px; font-weight: bold; text-align: center; color: #fff;}
 
 #news .notice{float: left; width: 600px; height: 280px;}
@@ -202,10 +202,10 @@ display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; lette
 #news .text:hover{text-decoration: underline;}
 #news .left_notice{position: relative; margin-right: 20px; float: left; width: 280px; height: 280px; background-color: #f2f0ed;}
 #news .left_notice .btn{position: absolute; width: 30px; height: 30px; top: 20px; right: 23px; border-radius: 2em; color: transparent;
-background:url(/image/sp_com2.png) no-repeat white; background-position: -196px -60px;}
+background:url(/han/image/sp_com2.png) no-repeat white; background-position: -196px -60px;}
 #news .right_notice{position: relative; margin-right: 10px; float: left; width: 280px; height: 280px; background-color: #f2f0ed;}
 #news .right_notice .btn{position: absolute; width: 30px; height: 30px; top: 20px; right: 23px; border-radius: 2em; color: transparent;
-background:url(/image/sp_com2.png) no-repeat white; background-position: -196px -60px;}
+background:url(/han/image/sp_com2.png) no-repeat white; background-position: -196px -60px;}
 
 #news .search_box{width: 280px; height: 280px; background-color: #fff; float: right;}
 #news .search_box option{font-weight: bold;}
